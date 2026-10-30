@@ -479,3 +479,13 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
  "status_values": "pack | placed(직접, 넣음) | requested(의뢰) | received(받음) | applied(반영) | rejected(다시 의뢰)"
 }
 ```
+
+
+## 표지 이미지 반영 (2026-10-31)
+
+| 키 | 위치 | 내용 | 크기 | 상태 |
+|---|---|---|---|---|
+| cover_01 | 페이지 최상단 `<figure class="cover">` (메뉴 바로 아래, 제목 위) | 회계실 · 둥근 금고 · 금·보라·청록 코인 세 개 · 장부 | 원본 1920×1080 → WebP 1600×900 내장 | 반영 완료 (Genspark 생성) |
+| og_01 | `img/og_01.jpg` 공유 미리보기 | 같은 그림을 1200×630으로 자름 | 1200×630 | 반영 완료 |
+
+표지는 한국어판과 6개 번역판 모두에 같은 그림으로 들어간다. 그림 설명(alt)은 각 언어판의 기존 번역 문장을 쓴다.
