@@ -1,0 +1,2737 @@
+{
+ "registry": "KG_00_registry.json",
+ "version": "1.0",
+ "series": "미디어 토큰 경제 연구실",
+ "series_en": "Media Token Economics Lab",
+ "updated": "2026-10-30",
+ "prefix": {
+  "lab": "urn:lab:"
+ },
+ "pages": [
+  "01_steem_reward_tokens",
+  "02_volatility_garch",
+  "03_efficient_market_news",
+  "04_decentralization_gini"
+ ],
+ "top_concepts": [
+  "lab:concept/cryptocurrency",
+  "lab:concept/volatility",
+  "lab:concept/efficient-market-hypothesis",
+  "lab:concept/decentralization"
+ ],
+ "nodes": [
+  {
+   "id": "lab:analogy/coin-line",
+   "type": "Analogy",
+   "label": {
+    "ko": "로렌츠 곡선 ↔ 적게 가진 순서로 누적한 금화",
+    "en": "coin line-up"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:analogy/coupon",
+   "type": "Analogy",
+   "label": {
+    "ko": "새 스팀 발행 ↔ 매일 찍는 상품권",
+    "en": "daily coupon"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:analogy/deposit",
+   "type": "Analogy",
+   "label": {
+    "ko": "스팀파워 ↔ 해지 13주 예금",
+    "en": "13-week deposit"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:analogy/dice-student",
+   "type": "Analogy",
+   "label": {
+    "ko": "무작위 걷기 ↔ 어제 점수 + 주사위",
+    "en": "dice student"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:analogy/empty-guest",
+   "type": "Analogy",
+   "label": {
+    "ko": "빈 계정 ↔ 이름만 있는 손님",
+    "en": "empty guest"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:analogy/exchange-window",
+   "type": "Analogy",
+   "label": {
+    "ko": "컨버전 ↔ 교환 창구",
+    "en": "exchange window"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:analogy/forecaster",
+   "type": "Analogy",
+   "label": {
+    "ko": "GARCH ↔ 오늘 비 + 어제 예보로 내일 예보",
+    "en": "forecaster blending"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:analogy/next-token",
+   "type": "Analogy",
+   "label": {
+    "ko": "다음 가격 예측 ↔ 다음 토큰 예측",
+    "en": "next token prediction"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:analogy/notice",
+   "type": "Analogy",
+   "label": {
+    "ko": "준강형 ↔ 공지 내용도 이미 반영",
+    "en": "posted notice"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:analogy/past-exams",
+   "type": "Analogy",
+   "label": {
+    "ko": "약형 ↔ 기출만으로는 점수 못 올림",
+    "en": "past exams"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:analogy/popularity-bias",
+   "type": "Analogy",
+   "label": {
+    "ko": "토큰 쏠림 ↔ 추천 시스템 인기 편향",
+    "en": "popularity bias"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:analogy/preference-feedback",
+   "type": "Analogy",
+   "label": {
+    "ko": "업보팅 ↔ 사람 선호 피드백 학습",
+    "en": "human preference feedback"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:analogy/rainy-season",
+   "type": "Analogy",
+   "label": {
+    "ko": "변동성 군집 ↔ 장마",
+    "en": "rainy season"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:analogy/rnn-state",
+   "type": "Analogy",
+   "label": {
+    "ko": "GARCH ↔ RNN 은닉 상태 갱신",
+    "en": "RNN hidden state"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:analogy/staff-room",
+   "type": "Analogy",
+   "label": {
+    "ko": "강형 ↔ 교무실 원본도 소용없음",
+    "en": "staff room"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:analogy/vault-floors",
+   "type": "Analogy",
+   "label": {
+    "ko": "K% Rule ↔ 금고 꼭대기 층의 몫",
+    "en": "vault floors"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:analogy/voucher",
+   "type": "Analogy",
+   "label": {
+    "ko": "스팀달러 ↔ 1달러 교환권",
+    "en": "dollar voucher"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:analogy/weather-var",
+   "type": "Analogy",
+   "label": {
+    "ko": "VaR ↔ “20일 중 19일은 이 정도 이하” 예보",
+    "en": "rain forecast threshold"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/3v",
+   "type": "Claim",
+   "label": {
+    "ko": "빅데이터의 특징은 양·속도·다양성(3V)으로 요약되며 가치와 정확성을 더해 5V로도 표현된다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/account-ratio",
+   "type": "Claim",
+   "label": {
+    "ko": "원문은 지니계수를 응용해 account별 토큰 보유 비율로 지니계수와 비슷한 탈중앙화 지표를 계산하고자 한다",
+    "en": ""
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:claim/arch-special",
+   "type": "Claim",
+   "label": {
+    "ko": "ARCH 모형은 GARCH 모형에서 이전 조건부 분산 항이 없는 특수한 경우다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/author-split",
+   "type": "Claim",
+   "label": {
+    "ko": "게시글 작성 시 SP와 SBD 보상 비율을 50:50 또는 100:0으로 정할 수 있다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/clustering",
+   "type": "Claim",
+   "label": {
+    "ko": "변동성이 커지면 큰 상태가 지속되는 군집 현상이 빈번하며 현재 변동성은 직전 변동성과 양(+)의 상관을 보인다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/crypto-count-2019",
+   "type": "Claim",
+   "label": {
+    "ko": "2019년 3월 기준 2,500개가 넘는 암호화폐가 거래되고 있다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/curation-rule",
+   "type": "Claim",
+   "label": {
+    "ko": "남보다 빠르게 업보팅할수록, 스팀파워가 높을수록 큐레이팅 보상을 많이 받는다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/dai-r2",
+   "type": "Claim",
+   "label": {
+    "ko": "부록 표에서 DAI의 1차 계수는 0.116, 설명력은 0.029이다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/data-dups",
+   "type": "Claim",
+   "label": {
+    "ko": "엑셀에서 BCAP과 CREDO, DRGN과 EURS의 K1 열은 모든 날짜에서 값이 같다",
+    "en": ""
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:claim/data-invalid",
+   "type": "Claim",
+   "label": {
+    "ko": "엑셀 K1~K4 값 131,068개 중 4,472개가 0 초과 1 이하 범위를 벗어난다",
+    "en": ""
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:claim/data-span",
+   "type": "Claim",
+   "label": {
+    "ko": "저자 자료는 ERC-20 토큰 91개의 집중도 지표 K1~K5를 2016-04-30부터 2018-11-28까지 일별로 담고 있다",
+    "en": ""
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:claim/decentral-issue",
+   "type": "Claim",
+   "label": {
+    "ko": "탈중앙화는 토큰 이코노미의 쟁점이며 토큰의 생성·배분·자원에서 구현돼야 하는 중요한 요소로 평가받는다",
+    "en": ""
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:claim/decile-def",
+   "type": "Claim",
+   "label": {
+    "ko": "십분위 분배율은 하위 40% 가구 소득 비중을 상위 20% 가구 소득 비중으로 나눈 값이다",
+    "en": ""
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:claim/dw-note",
+   "type": "Claim",
+   "label": {
+    "ko": "원문 주석: D/W는 Durbin-Watson 통계량으로 2에 가까울수록 자기상관이 없다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/ecb-virtual-def",
+   "type": "Claim",
+   "label": {
+    "ko": "유럽중앙은행은 가상화폐를 개발자가 발행·관리하고 특정 가상 커뮤니티 회원 사이에 쓰이는 규제되지 않은 디지털 화폐로 정의했다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/emh-91-ineff",
+   "type": "Claim",
+   "label": {
+    "ko": "부록 표의 ERC-20 토큰 91개는 모두 1차 계수가 1% 또는 5% 수준에서 유의하고 판정은 “비효율”이다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/emh-model",
+   "type": "Claim",
+   "label": {
+    "ko": "원문은 오늘 종가를 어제·2일 전·3일 전 종가로 회귀하는 모형으로 가격 효율성을 검정한다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/emh-three",
+   "type": "Claim",
+   "label": {
+    "ko": "효율적 시장가설은 정보집합 범위에 따라 약형·준강형·강형으로 구분된다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/engle-arch",
+   "type": "Claim",
+   "label": {
+    "ko": "Engle(1982)은 ARCH 모형으로 시간가변적 변동성을 처음 포착했다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/fama-cluster",
+   "type": "Claim",
+   "label": {
+    "ko": "Fama는 큰 일간 가격변동 뒤 변동이 계속되는 경향이 있으나 부호는 무작위이며, 이는 랜덤워크는 부정하지만 효율적 시장가설 전체의 반증은 아니라고 했다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/fama-emh",
+   "type": "Claim",
+   "label": {
+    "ko": "원문은 Fama(1970)를 인용해 효율적 시장가설 논의를 시작한다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/fig1-source",
+   "type": "Claim",
+   "label": {
+    "ko": "원문 그림 1(화폐 관계도)의 출처는 스팀잇 게시글이다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/fig7-avg",
+   "type": "Claim",
+   "label": {
+    "ko": "그림 7 표의 평균(C)은 B/A로 계산되어 있으며 레벨 2의 평균은 375.4이다",
+    "en": ""
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:claim/garch-def",
+   "type": "Claim",
+   "label": {
+    "ko": "GARCH는 Bollerslev(1986), Taylor(1986)가 제시했으며 조건부 분산이 직전 오차 제곱과 자체 시차값에 의존한다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/garch-taylor",
+   "type": "Claim",
+   "label": {
+    "ko": "Taylor(1986)도 GARCH 모형 제시자로 원문에 인용된다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/gini-decile",
+   "type": "Claim",
+   "label": {
+    "ko": "경제학의 불평등 지표로 지니계수와 십분위 분배율이 있으며 원문은 이를 이용해 스팀잇의 불평등도를 측정하자고 한다",
+    "en": ""
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:claim/hetero-def",
+   "type": "Claim",
+   "label": {
+    "ko": "금융변수는 시간 구간별로 다양한 분산을 갖는데 이를 이분산성이라 한다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/inflation-example",
+   "type": "Claim",
+   "label": {
+    "ko": "스팀 100개에 1%를 추가 발행하면 1개를 보상으로 지급하며, 가격이 5달러면 5달러, 1,000달러면 1,000달러만큼의 보상이 된다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/japan-us-crypto",
+   "type": "Claim",
+   "label": {
+    "ko": "일본은 법 개정으로 암호화폐를 공식 결제수단으로 인정했고 미국은 2015년 처음 암호화폐 거래소를 인가했다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/k-meaning",
+   "type": "Claim",
+   "label": {
+    "ko": "K1~K4는 상위 계층의 누적 보유 비중을 지니계수처럼 0~1로 나타낸 집중도 지표이며 K5는 보유량 규모다(저자 설명)",
+    "en": ""
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:claim/k-rule-815",
+   "type": "Claim",
+   "label": {
+    "ko": "그림 7 표에서 레벨 7·8·9의 보유 비중은 38.8%, 11.4%, 31.3%이고 K% Rule 지표는 81.5%이다",
+    "en": ""
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:claim/lda-assume",
+   "type": "Claim",
+   "label": {
+    "ko": "LDA는 문서를 여러 토픽의 혼합물로, 토픽을 단어에 대한 확률분포로 가정한다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/level1-count",
+   "type": "Claim",
+   "label": {
+    "ko": "그림 7 표에서 레벨 1(0개)의 계정 수는 514,000이다",
+    "en": ""
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:claim/msft-corr",
+   "type": "Claim",
+   "label": {
+    "ko": "마이크로소프트 일별 주가수익률(1990~2004년 5월)의 오늘·내일 상관계수는 +0.025이다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/mu-zero",
+   "type": "Claim",
+   "label": {
+    "ko": "VaR 계산에서 1일 기대수익률 μ는 1일 변동성에 비해 매우 작아 0으로 가정한다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/no-circuit-breaker",
+   "type": "Claim",
+   "label": {
+    "ko": "암호화폐 시장에는 사이드카·서킷브레이커 같은 가격 변동 제한 제도가 없다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/no-underlying",
+   "type": "Claim",
+   "label": {
+    "ko": "블록체인 기반 암호화폐는 기초자산이 없어 가격 예측에 뉴스와 SNS 반응 같은 텍스트 데이터를 주로 쓴다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/power-down-13",
+   "type": "Claim",
+   "label": {
+    "ko": "스팀파워를 스팀으로 되돌리는 데 13주가 걸리며 1주마다 최대 1/13씩 전환된다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/psych",
+   "type": "Claim",
+   "label": {
+    "ko": "원문은 변동성 군집을 투자자의 기대감이나 공포 같은 심리적 요인에 기인한 것으로 설명한다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/real-markets",
+   "type": "Claim",
+   "label": {
+    "ko": "원문은 실제 주식시장이 항상 효율적 시장가설대로 무작위 움직임을 보이지는 않는다고 덧붙인다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/research-plan",
+   "type": "Claim",
+   "label": {
+    "ko": "논문은 ERC-20 토큰과 스팀달러의 가격 변동성을 비교하고 지니계수로 탈중앙화 성과를 분석하자고 제안한다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/reward-75-25",
+   "type": "Claim",
+   "label": {
+    "ko": "스팀잇 보상은 게시글 75%, 큐레이팅 25%로 나뉘고 작성 7일 후 지급된다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/sbd-conversion",
+   "type": "Claim",
+   "label": {
+    "ko": "컨버전은 1스팀달러를 내면 1달러만큼의 스팀을 주어 스팀달러 공급을 줄인다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/sbd-interest",
+   "type": "Claim",
+   "label": {
+    "ko": "스팀달러 가치가 1달러 이하가 되면 스팀달러 저축 계정에 이자가 붙는다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/sbd-purpose",
+   "type": "Claim",
+   "label": {
+    "ko": "스팀이 주로 스팀파워로 묶여 유동성이 적어 1달러 가치를 목표로 하는 스팀달러를 만들었다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/sentiment-def",
+   "type": "Claim",
+   "label": {
+    "ko": "감성분석은 의미 속성을 감성 극성으로 범주화·계산해 아날로그적 감성을 정량적 수치로 나타낸다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/song-topic",
+   "type": "Claim",
+   "label": {
+    "ko": "송은비(2018)는 토픽 분석으로 뉴스 데이터와 암호화폐 가격 변동의 관계를 분석했다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/stability",
+   "type": "Claim",
+   "label": {
+    "ko": "분산방정식의 α+β가 1보다 작으면 안정적이고 1에 가까울수록 충격에 대한 불안정성이 지속된다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/steem-expect",
+   "type": "Claim",
+   "label": {
+    "ko": "원문은 스팀잇이 계량적 미디어 콘텐츠를 갖고 있어 다른 화폐보다 높은 효율성을 가질 것으로 기대한다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:claim/top-accounts",
+   "type": "Claim",
+   "label": {
+    "ko": "그림 7 표에서 레벨 7·8·9의 계정 수는 각각 400, 40, 10이다",
+    "en": ""
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:claim/var-critique",
+   "type": "Claim",
+   "label": {
+    "ko": "정규분포 VaR는 변동성을 상수로 가정해 시장 환경을 정확히 반영하지 못한다는 비판을 받는다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/var-def",
+   "type": "Claim",
+   "label": {
+    "ko": "VaR는 주어진 신뢰수준 내에서 특정 기간에 발생할 수 있는 포트폴리오의 최대 손실 금액이다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/var-example",
+   "type": "Claim",
+   "label": {
+    "ko": "1억 달러 포트폴리오가 3일 동안 150만 달러 이상 하락할 확률이 5%면 5% 3일 VaR는 150만 달러다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/vol-models",
+   "type": "Claim",
+   "label": {
+    "ko": "대표 변동성 모형으로 VaR 모형과 역사적 변동성 모형이 있으며, 역사적 변동성은 지수가중 이동평균 모형과 자기회귀 변동성 모형 등으로 나뉜다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/vol-sd",
+   "type": "Claim",
+   "label": {
+    "ko": "금융자산의 변동성은 수익률의 표준편차 또는 분산으로 측정되며 위험의 대체 척도로 쓰인다",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:claim/volatility-criticism",
+   "type": "Claim",
+   "label": {
+    "ko": "암호화폐는 지나친 가격 변동성 때문에 거래 수단이라는 화폐 요건을 충족하지 못한다는 비판을 받았다",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:claim/weak-implication",
+   "type": "Claim",
+   "label": {
+    "ko": "약형 효율적 시장에서는 기술적 분석이나 마켓타이밍 전략으로 꾸준히 초과이익을 얻을 수 없다",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:concept/cryptocurrency",
+   "type": "Concept",
+   "label": {
+    "ko": "암호화폐",
+    "en": "cryptocurrency"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:concept/decentralization",
+   "type": "Concept",
+   "label": {
+    "ko": "탈중앙화",
+    "en": "decentralization"
+   },
+   "pages": [
+    "01_steem_reward_tokens",
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:concept/efficient-market-hypothesis",
+   "type": "Concept",
+   "label": {
+    "ko": "효율적 시장가설",
+    "en": "efficient market hypothesis"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:concept/electronic-money",
+   "type": "Concept",
+   "label": {
+    "ko": "전자화폐",
+    "en": "electronic money"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:concept/heteroskedasticity",
+   "type": "Concept",
+   "label": {
+    "ko": "이분산성",
+    "en": "heteroskedasticity"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:concept/legal-tender",
+   "type": "Concept",
+   "label": {
+    "ko": "법정화폐",
+    "en": "legal tender"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:concept/lorenz-curve",
+   "type": "Concept",
+   "label": {
+    "ko": "로렌츠 곡선",
+    "en": "Lorenz curve"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:concept/peg",
+   "type": "Concept",
+   "label": {
+    "ko": "1달러 고정 목표",
+    "en": "price peg"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:concept/persistence",
+   "type": "Concept",
+   "label": {
+    "ko": "지속성 α+β",
+    "en": "persistence"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:concept/power-down",
+   "type": "Concept",
+   "label": {
+    "ko": "파워다운",
+    "en": "power down"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:concept/random-walk",
+   "type": "Concept",
+   "label": {
+    "ko": "무작위 걷기",
+    "en": "random walk"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:concept/reward-pool",
+   "type": "Concept",
+   "label": {
+    "ko": "보상 바구니",
+    "en": "reward pool"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:concept/semi-strong-emh",
+   "type": "Concept",
+   "label": {
+    "ko": "준강형 효율적 시장",
+    "en": "semi-strong-form EMH"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ],
+   "broader": [
+    "lab:concept/efficient-market-hypothesis"
+   ]
+  },
+  {
+   "id": "lab:concept/stablecoin",
+   "type": "Concept",
+   "label": {
+    "ko": "가치 고정형 토큰",
+    "en": "stablecoin"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:concept/steem",
+   "type": "Concept",
+   "label": {
+    "ko": "스팀",
+    "en": "STEEM"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:concept/steem-dollar",
+   "type": "Concept",
+   "label": {
+    "ko": "스팀달러",
+    "en": "Steem Dollars (SBD)"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:concept/steem-power",
+   "type": "Concept",
+   "label": {
+    "ko": "스팀파워",
+    "en": "Steem Power"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:concept/strong-emh",
+   "type": "Concept",
+   "label": {
+    "ko": "강형 효율적 시장",
+    "en": "strong-form EMH"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ],
+   "broader": [
+    "lab:concept/efficient-market-hypothesis"
+   ]
+  },
+  {
+   "id": "lab:concept/virtual-currency",
+   "type": "Concept",
+   "label": {
+    "ko": "가상화폐",
+    "en": "virtual currency"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:concept/volatility",
+   "type": "Concept",
+   "label": {
+    "ko": "변동성",
+    "en": "volatility"
+   },
+   "pages": [
+    "01_steem_reward_tokens",
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:concept/volatility-clustering",
+   "type": "Concept",
+   "label": {
+    "ko": "변동성 군집",
+    "en": "volatility clustering"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ],
+   "broader": [
+    "lab:concept/heteroskedasticity"
+   ]
+  },
+  {
+   "id": "lab:concept/weak-form-emh",
+   "type": "Concept",
+   "label": {
+    "ko": "약형 효율적 시장",
+    "en": "weak-form EMH"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ],
+   "broader": [
+    "lab:concept/efficient-market-hypothesis"
+   ]
+  },
+  {
+   "id": "lab:dataset/erc20-91-closing",
+   "type": "Dataset",
+   "label": {
+    "ko": "ERC-20 토큰 91개 일별 종가",
+    "en": "91 ERC-20 token daily closes"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:dataset/erc20-91-concentration",
+   "type": "Dataset",
+   "label": {
+    "ko": "ERC-20 토큰 91개 집중도 일별 자료",
+    "en": "91 ERC-20 token concentration daily data"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:dataset/fig7-levels",
+   "type": "Dataset",
+   "label": {
+    "ko": "원문 그림 7 레벨 표",
+    "en": "paper figure 7 level table"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:dataset/sim-garch-market",
+   "type": "Dataset",
+   "label": {
+    "ko": "가상 GARCH 시장",
+    "en": "simulated GARCH market"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:dataset/sim-random-walk",
+   "type": "Dataset",
+   "label": {
+    "ko": "가상 무작위 걷기 시장",
+    "en": "simulated random walk markets"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:limitation/address-not-person",
+   "type": "Limitation",
+   "label": {
+    "ko": "주소 ≠ 사람 (거래소 지갑)",
+    "en": "address is not a person"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:limitation/arch-short-memory",
+   "type": "Limitation",
+   "label": {
+    "ko": "ARCH는 긴 기억에 항이 많이 필요",
+    "en": "ARCH needs many lags"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:limitation/category-only",
+   "type": "Limitation",
+   "label": {
+    "ko": "정의만으로는 안정되지 않음",
+    "en": "definition does not stabilize"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:limitation/constant-sigma",
+   "type": "Limitation",
+   "label": {
+    "ko": "σ를 상수로 가정",
+    "en": "constant sigma assumption"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:limitation/data-quality",
+   "type": "Limitation",
+   "label": {
+    "ko": "범위 밖 값·중복 열",
+    "en": "out-of-range values and duplicate columns"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:limitation/emh-not-always",
+   "type": "Limitation",
+   "label": {
+    "ko": "실제 시장은 늘 효율적이지 않을 수 있음",
+    "en": "markets may deviate"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:limitation/fig7-inconsistent",
+   "type": "Limitation",
+   "label": {
+    "ko": "그림 7의 평균이 레벨 구간과 맞지 않는 행",
+    "en": "figure 7 inconsistency"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:limitation/hand-lexicon",
+   "type": "Limitation",
+   "label": {
+    "ko": "손으로 만든 단어표",
+    "en": "hand-made lexicon"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:limitation/hand-set-params",
+   "type": "Limitation",
+   "label": {
+    "ko": "손으로 정한 계수",
+    "en": "hand-set parameters"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:limitation/illiquid-sp",
+   "type": "Limitation",
+   "label": {
+    "ko": "스팀파워는 유동성이 적음",
+    "en": "Steem Power is illiquid"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:limitation/level-regression",
+   "type": "Limitation",
+   "label": {
+    "ko": "가격 수준의 β₁≈1은 예측 가능성과 다름",
+    "en": "price-level beta near 1"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:limitation/level-within",
+   "type": "Limitation",
+   "label": {
+    "ko": "레벨 안 차이를 못 봄 (지니 하한)",
+    "en": "within-level inequality ignored"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:limitation/no-forecast-rule",
+   "type": "Limitation",
+   "label": {
+    "ko": "몰린다는 사실만으로는 예측 식이 없음",
+    "en": "clustering without a forecast rule"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:limitation/peg-upside",
+   "type": "Limitation",
+   "label": {
+    "ko": "1달러 위쪽 장치 없음",
+    "en": "no upside mechanism"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:limitation/price-only-info",
+   "type": "Limitation",
+   "label": {
+    "ko": "가격만으로는 공개 정보(뉴스)를 못 봄",
+    "en": "price-only information set"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:limitation/price-unknown",
+   "type": "Limitation",
+   "label": {
+    "ko": "바구니 달러 가치가 흔들림",
+    "en": "reward value fluctuates"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:limitation/ten-people",
+   "type": "Limitation",
+   "label": {
+    "ko": "사람 열 명은 쉽지만 계정은 수십만 개",
+    "en": "individual data unavailable"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:method/ar3-price-regression",
+   "type": "Method",
+   "label": {
+    "ko": "AR(3) 가격 회귀",
+    "en": "AR(3) price-level regression"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:method/ar3-trading",
+   "type": "Method",
+   "label": {
+    "ko": "AR(3) 예측 매매",
+    "en": "AR(3) forecast trading"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ],
+   "broader": [
+    "lab:method/ar3-price-regression"
+   ]
+  },
+  {
+   "id": "lab:method/arch",
+   "type": "Method",
+   "label": {
+    "ko": "ARCH",
+    "en": "ARCH"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ],
+   "broader": [
+    "lab:method/garch"
+   ]
+  },
+  {
+   "id": "lab:method/autoregressive-volatility",
+   "type": "Method",
+   "label": {
+    "ko": "자기회귀 변동성 모형",
+    "en": "autoregressive volatility model"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:method/curation-reward",
+   "type": "Method",
+   "label": {
+    "ko": "큐레이팅 보상",
+    "en": "curation reward"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:method/ewma",
+   "type": "Method",
+   "label": {
+    "ko": "지수가중 이동평균",
+    "en": "EWMA volatility"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ],
+   "broader": [
+    "lab:method/historical-volatility"
+   ]
+  },
+  {
+   "id": "lab:method/garch",
+   "type": "Method",
+   "label": {
+    "ko": "GARCH",
+    "en": "GARCH"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:method/garch-fitted",
+   "type": "Method",
+   "label": {
+    "ko": "앞 500일로 추정한 GARCH(1,1)",
+    "en": "fitted GARCH(1,1)"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ],
+   "broader": [
+    "lab:method/garch"
+   ]
+  },
+  {
+   "id": "lab:method/historical-volatility",
+   "type": "Method",
+   "label": {
+    "ko": "역사적 변동성",
+    "en": "historical volatility"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:method/hold",
+   "type": "Method",
+   "label": {
+    "ko": "사서 들고 있기",
+    "en": "buy and hold"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:method/holding-levels",
+   "type": "Method",
+   "label": {
+    "ko": "보유 레벨 집계",
+    "en": "holding-level aggregation"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:method/interest-only",
+   "type": "Method",
+   "label": {
+    "ko": "이자만 쓰는 선택",
+    "en": "interest only"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:method/interest-plus-conversion",
+   "type": "Method",
+   "label": {
+    "ko": "이자 + 컨버전 선택",
+    "en": "interest plus conversion"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ],
+   "broader": [
+    "lab:concept/peg"
+   ]
+  },
+  {
+   "id": "lab:method/lda",
+   "type": "Method",
+   "label": {
+    "ko": "LDA 토픽 분석",
+    "en": "latent Dirichlet allocation"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:method/moving-sd-60",
+   "type": "Method",
+   "label": {
+    "ko": "60일 이동 표준편차",
+    "en": "60-day rolling standard deviation"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ],
+   "broader": [
+    "lab:method/historical-volatility"
+   ]
+  },
+  {
+   "id": "lab:method/naive-k1",
+   "type": "Method",
+   "label": {
+    "ko": "이번 달 그대로",
+    "en": "naive no-change forecast"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:method/return-autoregression",
+   "type": "Method",
+   "label": {
+    "ko": "수익률 자기회귀",
+    "en": "return autoregression"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:method/sbd-conversion",
+   "type": "Method",
+   "label": {
+    "ko": "컨버전",
+    "en": "SBD conversion"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:method/sbd-savings-interest",
+   "type": "Method",
+   "label": {
+    "ko": "저축 이자 장치",
+    "en": "SBD savings interest"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:method/sentiment-analysis",
+   "type": "Method",
+   "label": {
+    "ko": "감성분석",
+    "en": "sentiment analysis"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:method/text-mining",
+   "type": "Method",
+   "label": {
+    "ko": "텍스트 마이닝",
+    "en": "text mining"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:method/trend-k1",
+   "type": "Method",
+   "label": {
+    "ko": "3개월 추세 연장",
+    "en": "3-month trend extrapolation"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:method/unit-root-test",
+   "type": "Method",
+   "label": {
+    "ko": "단위근 검정",
+    "en": "unit root test"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:metric/adjusted-r2",
+   "type": "Metric",
+   "label": {
+    "ko": "설명력 adj-R²",
+    "en": "adjusted R-squared"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:metric/decile-ratio",
+   "type": "Metric",
+   "label": {
+    "ko": "십분위 분배율",
+    "en": "decile distribution ratio"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:metric/durbin-watson",
+   "type": "Metric",
+   "label": {
+    "ko": "Durbin-Watson",
+    "en": "Durbin-Watson statistic"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:metric/excess-return",
+   "type": "Metric",
+   "label": {
+    "ko": "누적 초과 성과",
+    "en": "cumulative excess return"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:metric/gini",
+   "type": "Metric",
+   "label": {
+    "ko": "지니계수",
+    "en": "Gini coefficient"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:metric/k-concentration",
+   "type": "Metric",
+   "label": {
+    "ko": "집중도 지표 K1~K4",
+    "en": "concentration indices K1-K4"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:metric/k-percent-rule",
+   "type": "Metric",
+   "label": {
+    "ko": "K% Rule 지표",
+    "en": "K% rule index"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:metric/k1-forecast-error",
+   "type": "Metric",
+   "label": {
+    "ko": "다음 달 K1 예측 평균 오차",
+    "en": "mean absolute K1 forecast error"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:metric/peg-deviation",
+   "type": "Metric",
+   "label": {
+    "ko": "평균 괴리",
+    "en": "mean absolute peg deviation"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:metric/sigma-forecast-error",
+   "type": "Metric",
+   "label": {
+    "ko": "σ 예측 평균 오차",
+    "en": "mean absolute sigma forecast error"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:metric/var",
+   "type": "Metric",
+   "label": {
+    "ko": "VaR",
+    "en": "Value at Risk"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:metric/var-violation-rate",
+   "type": "Metric",
+   "label": {
+    "ko": "VaR 위반 비율",
+    "en": "VaR violation rate"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:question/core-01",
+   "type": "Question",
+   "label": {
+    "ko": "흔들리는 토큰으로 보상하면서 1달러의 약속을 지킬 수 있을까?",
+    "en": "Can a reward token keep a $1 promise?"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:question/core-02",
+   "type": "Question",
+   "label": {
+    "ko": "변동성을 숫자 하나로 말할 수 있을까? 그 숫자는 늘 같을까?",
+    "en": "Is volatility one constant number?"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:question/core-03",
+   "type": "Question",
+   "label": {
+    "ko": "어제 가격으로 내일 가격을 맞혀 꾸준히 벌 수 있을까?",
+    "en": "Can yesterday’s price predict tomorrow profitably?"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:question/core-04",
+   "type": "Question",
+   "label": {
+    "ko": "토큰은 몇 사람 손에 몰려 있을까?",
+    "en": "Who holds the tokens?"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:question/duel-01",
+   "type": "Question",
+   "label": {
+    "ko": "1달러를 지키는 데 이자만으로 충분할까?",
+    "en": "Is interest enough to hold the peg?"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:question/duel-02",
+   "type": "Question",
+   "label": {
+    "ko": "지난 60일 평균이면 내일의 흔들림을 예보하기에 충분할까?",
+    "en": "Is a 60-day average enough?"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:question/duel-03",
+   "type": "Question",
+   "label": {
+    "ko": "설명력이 0.99면 돈을 벌 수 있을까?",
+    "en": "Does R-squared 0.99 mean profit?"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:question/duel-04",
+   "type": "Question",
+   "label": {
+    "ko": "쏠림은 추세를 따라 계속 줄어들까?",
+    "en": "Does concentration keep falling?"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:question/open-compare",
+   "type": "Question",
+   "label": {
+    "ko": "스팀달러와 ERC-20 토큰의 실제 변동성 차이는? (원문은 계획만 제시)",
+    "en": "SBD vs ERC-20 volatility"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:question/open-crypto-garch",
+   "type": "Question",
+   "label": {
+    "ko": "실제 ERC-20 토큰·스팀달러 수익률에서 GARCH의 α+β는? (원문에 결과 없음)",
+    "en": "GARCH persistence for real tokens"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:question/open-judgment-rule",
+   "type": "Question",
+   "label": {
+    "ko": "원문 “비효율” 판정의 기준은 무엇이었을까? (원문 미기재)",
+    "en": "What rule produced the judgment?"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:question/open-k-definition",
+   "type": "Question",
+   "label": {
+    "ko": "K1~K4의 정확한 계층 기준은? (원문 미기재, 확인 필요)",
+    "en": "Exact definition of K1-K4"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:question/open-news-vol",
+   "type": "Question",
+   "label": {
+    "ko": "뉴스 토픽·감성이 토큰 변동성을 설명할까? (원문 제안)",
+    "en": "Do news topics explain volatility?"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:question/open-sbd-real",
+   "type": "Question",
+   "label": {
+    "ko": "실제 스팀달러 가격 기록에서도 컨버전이 1달러를 지켰을까? (확인 필요)",
+    "en": "Did conversion hold the peg in real SBD data?"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:question/open-steem-efficiency",
+   "type": "Question",
+   "label": {
+    "ko": "스팀잇 토큰은 정말 다른 코인보다 효율적일까? (원문의 기대, 결과 없음)",
+    "en": "Is Steem more efficient?"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:question/open-steem-gini",
+   "type": "Question",
+   "label": {
+    "ko": "스팀·스팀달러의 집중도는 ERC-20 토큰과 다를까? (자료 없음)",
+    "en": "Steem concentration vs ERC-20"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:question/open-text-garch",
+   "type": "Question",
+   "label": {
+    "ko": "뉴스·SNS 정보를 분산방정식에 더하면 예보가 나아질까? (원문 제안)",
+    "en": "Adding text signals to the variance equation"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:sim/appendix-table",
+   "type": "Simulation",
+   "label": {
+    "ko": "부록 성적표 펼치기",
+    "en": "appendix explorer"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:sim/clustering-compare",
+   "type": "Simulation",
+   "label": {
+    "ko": "두 시장 비교",
+    "en": "clustering comparison"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:sim/concentration-model",
+   "type": "Simulation",
+   "label": {
+    "ko": "쏠림 조절판",
+    "en": "concentration model"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:sim/currency-map",
+   "type": "Simulation",
+   "label": {
+    "ko": "화폐 지도 고르기",
+    "en": "currency map"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:sim/emh-scatter",
+   "type": "Simulation",
+   "label": {
+    "ko": "정보집합과 산점도",
+    "en": "EMH scatter"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:sim/forecaster-scorecard",
+   "type": "Simulation",
+   "label": {
+    "ko": "예보 성적표",
+    "en": "forecaster scorecard"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:sim/garch-cockpit",
+   "type": "Simulation",
+   "label": {
+    "ko": "GARCH 조종석",
+    "en": "GARCH cockpit"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:sim/level-table",
+   "type": "Simulation",
+   "label": {
+    "ko": "레벨 표와 피라미드",
+    "en": "level table explorer"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:sim/lorenz-ten",
+   "type": "Simulation",
+   "label": {
+    "ko": "열 명에게 금화 나눠 주기",
+    "en": "ten-person Lorenz"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:sim/news-speed",
+   "type": "Simulation",
+   "label": {
+    "ko": "반영 속도 다이얼",
+    "en": "news diffusion speed"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:sim/news-topics",
+   "type": "Simulation",
+   "label": {
+    "ko": "뉴스 토픽·감성 변환",
+    "en": "news topic and sentiment"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:sim/peg-model",
+   "type": "Simulation",
+   "label": {
+    "ko": "1달러 복원 모형",
+    "en": "peg restoration model"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:sim/power-down",
+   "type": "Simulation",
+   "label": {
+    "ko": "파워다운 계산기",
+    "en": "power-down calculator"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:sim/reward-split",
+   "type": "Simulation",
+   "label": {
+    "ko": "보상 바구니 실험",
+    "en": "reward split simulator"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:sim/rw-replication",
+   "type": "Simulation",
+   "label": {
+    "ko": "무작위 걷기 재현 실험",
+    "en": "random walk replication"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:sim/token-explorer",
+   "type": "Simulation",
+   "label": {
+    "ko": "91개 토큰 집중도 탐색",
+    "en": "token concentration explorer"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:sim/var-calculator",
+   "type": "Simulation",
+   "label": {
+    "ko": "VaR 계산기",
+    "en": "VaR calculator"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:task/forecast-concentration",
+   "type": "Task",
+   "label": {
+    "ko": "다음 달 집중도 예측",
+    "en": "next-month concentration forecast"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:task/measure-decentralization",
+   "type": "Task",
+   "label": {
+    "ko": "탈중앙화 측정",
+    "en": "measuring decentralization"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:task/price-stabilization",
+   "type": "Task",
+   "label": {
+    "ko": "토큰 가치 안정",
+    "en": "price stabilization"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:task/return-predictability",
+   "type": "Task",
+   "label": {
+    "ko": "수익률 예측 가능성 검정",
+    "en": "return predictability test"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:task/volatility-forecasting",
+   "type": "Task",
+   "label": {
+    "ko": "변동성 예측",
+    "en": "volatility forecasting"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:term/alpha-garch",
+   "type": "Term",
+   "label": {
+    "ko": "α",
+    "en": "alpha"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:term/autocorrelation",
+   "type": "Term",
+   "label": {
+    "ko": "자기상관",
+    "en": "autocorrelation"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:term/beta-garch",
+   "type": "Term",
+   "label": {
+    "ko": "β",
+    "en": "beta"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:term/beta1-ar",
+   "type": "Term",
+   "label": {
+    "ko": "β₁",
+    "en": "beta 1"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:term/big-data",
+   "type": "Term",
+   "label": {
+    "ko": "빅데이터",
+    "en": "big data"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:term/closing-price",
+   "type": "Term",
+   "label": {
+    "ko": "종가",
+    "en": "closing price"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:term/conditional-variance",
+   "type": "Term",
+   "label": {
+    "ko": "조건부 분산",
+    "en": "conditional variance"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:term/confidence-level",
+   "type": "Term",
+   "label": {
+    "ko": "신뢰수준",
+    "en": "confidence level"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:term/distributed-ledger",
+   "type": "Term",
+   "label": {
+    "ko": "분산 장부",
+    "en": "distributed ledger"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:term/empty-account",
+   "type": "Term",
+   "label": {
+    "ko": "빈 계정",
+    "en": "empty account"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:term/erc-20",
+   "type": "Term",
+   "label": {
+    "ko": "ERC-20",
+    "en": "ERC-20"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:term/excess-return",
+   "type": "Term",
+   "label": {
+    "ko": "초과이익",
+    "en": "excess return"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:term/exchange-wallet",
+   "type": "Term",
+   "label": {
+    "ko": "거래소 지갑",
+    "en": "exchange wallet"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:term/holding-level",
+   "type": "Term",
+   "label": {
+    "ko": "레벨",
+    "en": "holding level"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:term/holding-share",
+   "type": "Term",
+   "label": {
+    "ko": "보유 비중",
+    "en": "holding share"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:term/information-set",
+   "type": "Term",
+   "label": {
+    "ko": "정보집합",
+    "en": "information set"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:term/k5-holding-size",
+   "type": "Term",
+   "label": {
+    "ko": "K5",
+    "en": "K5 holding size"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:term/market-timing",
+   "type": "Term",
+   "label": {
+    "ko": "마켓타이밍",
+    "en": "market timing"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:term/maximum-likelihood",
+   "type": "Term",
+   "label": {
+    "ko": "최대우도",
+    "en": "maximum likelihood"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:term/nlp",
+   "type": "Term",
+   "label": {
+    "ko": "자연어처리",
+    "en": "natural language processing"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:term/normal-distribution",
+   "type": "Term",
+   "label": {
+    "ko": "정규분포",
+    "en": "normal distribution"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:term/pareto",
+   "type": "Term",
+   "label": {
+    "ko": "파레토",
+    "en": "Pareto distribution"
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:term/phi-ar",
+   "type": "Term",
+   "label": {
+    "ko": "φ",
+    "en": "phi"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:term/random-walk",
+   "type": "Term",
+   "label": {
+    "ko": "랜덤워크",
+    "en": "random walk"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:term/sigma",
+   "type": "Term",
+   "label": {
+    "ko": "σ",
+    "en": "sigma"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:term/significance-level",
+   "type": "Term",
+   "label": {
+    "ko": "유의",
+    "en": "significance level"
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:term/standard-deviation",
+   "type": "Term",
+   "label": {
+    "ko": "표준편차",
+    "en": "standard deviation"
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:term/token-economy",
+   "type": "Term",
+   "label": {
+    "ko": "토큰 이코노미",
+    "en": "token economy"
+   },
+   "pages": [
+    "01_steem_reward_tokens",
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:term/upvote",
+   "type": "Term",
+   "label": {
+    "ko": "업보팅",
+    "en": "upvote"
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:work/ahnndmedia",
+   "type": "Work",
+   "label": {
+    "ko": "미디어 콘텐츠 기반의 블록체인 토큰의 경제적 성과 분석 — 가격 변동성 및 탈중앙화 성과를 중심으로",
+    "en": "Economic performance of media-content-based blockchain tokens"
+   },
+   "pages": [
+    "01_steem_reward_tokens",
+    "02_volatility_garch",
+    "03_efficient_market_news",
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:work/ahnndtokendata",
+   "type": "Work",
+   "label": {
+    "ko": "DATA_DISTRIBUTION_ALL_COIN (ERC-20 토큰 91종 보유 집중도 일별 자료, 2016",
+    "en": ""
+   },
+   "pages": [
+    "04_decentralization_gini"
+   ]
+  },
+  {
+   "id": "lab:work/atomrigs2blcss",
+   "type": "Work",
+   "label": {
+    "ko": "스팀잇 게시글 (원문 그림 1 출처)",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:work/blei2003latent",
+   "type": "Work",
+   "label": {
+    "ko": "Latent Dirichlet Allocation",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:work/bollerslev1986generalized",
+   "type": "Work",
+   "label": {
+    "ko": "Generalized Autoregressive Conditional Heteroscedasticity",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:work/ecb2012virtual",
+   "type": "Work",
+   "label": {
+    "ko": "Virtual Currency Schemes",
+    "en": ""
+   },
+   "pages": [
+    "01_steem_reward_tokens"
+   ]
+  },
+  {
+   "id": "lab:work/engle1982autoregressive",
+   "type": "Work",
+   "label": {
+    "ko": "Autoregressive Conditional Heteroscedasticity with Estimates",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  },
+  {
+   "id": "lab:work/fama1970efficient",
+   "type": "Work",
+   "label": {
+    "ko": "Efficient Capital Markets: A Review of Theory and Empirical ",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch",
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:work/indexfundmsft",
+   "type": "Work",
+   "label": {
+    "ko": "미 Microsoft 사의 일별 주가수익률 상관관계 그림 (원문 그림 5 출처)",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:work/laney20013d",
+   "type": "Work",
+   "label": {
+    "ko": "3D Data Management: Controlling Data Volume, Velocity and Va",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:work/song2018text",
+   "type": "Work",
+   "label": {
+    "ko": "텍스트마이닝을 활용한 비트코인 관련 뉴스 경향 분석",
+    "en": ""
+   },
+   "pages": [
+    "03_efficient_market_news"
+   ]
+  },
+  {
+   "id": "lab:work/taylor1986modelling",
+   "type": "Work",
+   "label": {
+    "ko": "Modelling Financial Time Series",
+    "en": ""
+   },
+   "pages": [
+    "02_volatility_garch"
+   ]
+  }
+ ],
+ "works": [
+  {
+   "id": "ahnndmedia",
+   "title": "미디어 콘텐츠 기반의 블록체인 토큰의 경제적 성과 분석 — 가격 변동성 및 탈중앙화 성과를 중심으로",
+   "type": "manuscript",
+   "pages": [
+    "01",
+    "02",
+    "03",
+    "04"
+   ]
+  },
+  {
+   "id": "ahnndtokendata",
+   "title": "DATA_DISTRIBUTION_ALL_COIN (ERC-20 토큰 91종 보유 집중도 일별 자료, 2016-04-30~2018-11-28)",
+   "type": "dataset",
+   "pages": [
+    "04"
+   ]
+  },
+  {
+   "id": "atomrigs2blcss",
+   "title": "스팀잇 게시글 (원문 그림 1 출처)",
+   "type": "webpage",
+   "pages": [
+    "01"
+   ]
+  },
+  {
+   "id": "blei2003latent",
+   "title": "Latent Dirichlet Allocation",
+   "type": "article-journal",
+   "pages": [
+    "03"
+   ]
+  },
+  {
+   "id": "bollerslev1986generalized",
+   "title": "Generalized Autoregressive Conditional Heteroscedasticity",
+   "type": "article-journal",
+   "pages": [
+    "02"
+   ]
+  },
+  {
+   "id": "ecb2012virtual",
+   "title": "Virtual Currency Schemes",
+   "type": "report",
+   "pages": [
+    "01"
+   ]
+  },
+  {
+   "id": "engle1982autoregressive",
+   "title": "Autoregressive Conditional Heteroscedasticity with Estimates of the Variance of United Kingdom Inflation",
+   "type": "article-journal",
+   "pages": [
+    "02"
+   ]
+  },
+  {
+   "id": "fama1970efficient",
+   "title": "Efficient Capital Markets: A Review of Theory and Empirical Work",
+   "type": "article-journal",
+   "pages": [
+    "02",
+    "03"
+   ]
+  },
+  {
+   "id": "indexfundmsft",
+   "title": "미 Microsoft 사의 일별 주가수익률 상관관계 그림 (원문 그림 5 출처)",
+   "type": "webpage",
+   "pages": [
+    "03"
+   ]
+  },
+  {
+   "id": "laney20013d",
+   "title": "3D Data Management: Controlling Data Volume, Velocity and Variety",
+   "type": "report",
+   "pages": [
+    "03"
+   ]
+  },
+  {
+   "id": "song2018text",
+   "title": "텍스트마이닝을 활용한 비트코인 관련 뉴스 경향 분석",
+   "type": "thesis",
+   "pages": [
+    "03"
+   ]
+  },
+  {
+   "id": "taylor1986modelling",
+   "title": "Modelling Financial Time Series",
+   "type": "book",
+   "pages": [
+    "02"
+   ]
+  }
+ ]
+}
