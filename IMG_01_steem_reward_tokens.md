@@ -5,7 +5,7 @@
 | 페이지 | 01_steem_reward_tokens.html |
 | 모드 / 주 앵커 | 논문 / C 장부: 연구실 옆 회계실·금고실 |
 | 시즌 | 기본 |
-| 대결 | 1달러를 지키는 데 이자면 충분할까? → 결과 R (Money-Robo 승), 차이 $0.0604 → $0.0453 (상대 25%) |
+| 대결 | 1달러를 지키는 데 이자면 충분할까? → 결과 R (주판봇 승), 차이 $0.0604 → $0.0453 (상대 25%) |
 | 새로 그릴 그림 | P1 3장 · P2 1장 · P3 0장 (외부 기준) |
 | 제작 경로 | 직접 4장 (페이지에 넣음: 아웃트로 합성본, 대결 머리, 썸네일, 공유 미리보기) · 외부 의뢰 3장 (받을 것) |
 | 의뢰 도구 | Genspark (기본) |
@@ -17,8 +17,8 @@
 ## 1. 그림체와 고정 외형
 - 스타일: SKILL 18-3 (16비트 SNES 시대 픽셀 아트, 굵은 외곽선, 디더링 음영)
 - 캐릭터 고정 외형: SKILL 18-4 표 그대로 (공식 저장소 `CHARACTER_CORE_EN`)
-- 이 페이지 장소: 연구실 옆 회계실. 금화 탑, 가죽 장부(줄무늬, 글자 없음), 둥근 금고 문, 작은 교환 창구
-- 장소 영어 묘사: *a cozy accounting room beside the night lab, stacks of gold coins, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell*
+- 이 페이지 장소: 연구실 옆 회계실. 큰 나무 주판, 가죽 장부(줄무늬, 글자 없음), 둥근 금고 문, 작은 교환 창구
+- 장소 영어 묘사: *a cozy accounting room beside the night lab, a big wooden abacus, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell*
 
 ## 2. 필요한 그림 전체
 
@@ -64,15 +64,15 @@
 | 배경 | 그림 전체 |
 | 구도 | 인물 없음. 왼쪽 45%는 어둡고 단순하게(제목 글자 자리), 장소의 핵심 소품은 오른쪽 |
 | 표정·몸짓 | — |
-| 소품 | 연구실 옆 회계실. 금화 탑, 가죽 장부(줄무늬, 글자 없음), 둥근 금고 문, 작은 교환 창구 (글자 없음) |
+| 소품 | 연구실 옆 회계실. 큰 나무 주판, 가죽 장부(줄무늬, 글자 없음), 둥근 금고 문, 작은 교환 창구 (글자 없음) |
 | 빛·분위기 | 밤의 연구실 보라 조명, 모니터 청록 불빛, 작은 분홍·초록 형광 |
 | 피할 것 | 글자·숫자·로고, 실존 코인 기호나 브랜드 |
-| 대체 글 (alt) | 금화 탑과 둥근 금고 문이 있는 연구실 옆 회계실 |
+| 대체 글 (alt) | 큰 나무 주판과 둥근 금고 문이 있는 연구실 옆 회계실 |
 | 대신 쓰는 그림 | CSS 그라데이션 + 벌집 무늬 |
 
 **프롬프트 (복사해서 사용)**
 ```
-detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, wide 8:3 background, left side simple and calm for title text, details on the right, a cozy accounting room beside the night lab, stacks of gold coins, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell, no characters, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
+detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, wide 8:3 background, left side simple and calm for title text, details on the right, a cozy accounting room beside the night lab, a big wooden abacus, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell, no characters, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
 ```
 
 ### 3-2. `sc_01_hero`
@@ -81,17 +81,17 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
 | 판 · 크기 | E · 1200×800 (정수배 가능) |
 | 제작 경로 | 외부: Genspark |
 | 배경 | 그림 전체 |
-| 구도 | 초파리 왼쪽(오른쪽을 봄), Money-Robo 오른쪽(왼쪽을 봄), 박사 가운데 뒤, 하루 한쪽 옆. 중요한 것은 위쪽 62% 안 |
-| 표정·몸짓 | 박사 doc_think(턱에 손), 초파리 fly_point(의심하며 가리킴), 로봇 robo_coin(금화), 하루 asst_smile |
-| 소품 | 연구실 옆 회계실. 금화 탑, 가죽 장부(줄무늬, 글자 없음), 둥근 금고 문, 작은 교환 창구 (글자 없음) |
+| 구도 | 초파리 왼쪽(오른쪽을 봄), 주판봇 오른쪽(왼쪽을 봄), 박사 가운데 뒤, 하루 한쪽 옆. 중요한 것은 위쪽 62% 안 |
+| 표정·몸짓 | 박사 doc_think(턱에 손), 초파리 fly_point(의심하며 가리킴), 로봇 robo_coin(주판알), 하루 asst_smile |
+| 소품 | 연구실 옆 회계실. 큰 나무 주판, 가죽 장부(줄무늬, 글자 없음), 둥근 금고 문, 작은 교환 창구 (글자 없음) |
 | 빛·분위기 | 중간 밝기, 장면의 빛이 핵심 소품에 모임 |
 | 피할 것 | 결과 전 장면이므로 승패를 짐작할 표정·배치 금지, 글자 |
-| 대체 글 (alt) | 회계실 무대 위의 네 캐릭터와 금화 탑 |
+| 대체 글 (alt) | 회계실 무대 위의 네 캐릭터와 큰 나무 주판 |
 | 대신 쓰는 그림 | 팩 캐릭터 + 캔버스 소품 합성본 |
 
 **프롬프트 (복사해서 사용)**
 ```
-detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks; the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands; MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow; Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat; a cozy accounting room beside the night lab, stacks of gold coins, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell; the four characters gather around a small exchange window counter; a row of blank coin tokens of three different colors (gold, purple, teal) is lined up on the counter; the Professor at the back center with a hand on his chin; the Fruit Fly on the left looking right, pointing suspiciously at the coins; MONEY-ROBO on the right looking left beside a shiny gold coin; Haru at the side holding a blank striped ledger, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
+detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks; the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands; JUPANBOT (AbaBot), a cute retro computer robot mascot with a boxy beige CRT-monitor body with rounded corners and thick dark brown outlines, a large dark green screen on the front where the face is drawn only with simple mint-green pixel blocks, a short thin antenna on a small square base topped with one tiny red-brown abacus bead, gray segmented arms with rounded gray mitten hands, two small dark gray tank treads instead of legs, carrying a small traditional wooden abacus with red-brown beads; Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat; a cozy accounting room beside the night lab, a big wooden abacus, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell; the four characters gather around a small exchange window counter; a row of blank coin tokens of three different colors (gold, purple, teal) is lined up on the counter; the Professor at the back center with a hand on his chin; the Fruit Fly on the left looking right, pointing suspiciously at the coins; JUPANBOT (AbaBot) on the right looking left beside a big wooden abacus; Haru at the side holding a blank striped ledger, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands, no white round robot head, no yellow or golden eyes, no floating robot, no gold coins
 ```
 
 ### 3-3. `cut_01_think`
@@ -110,7 +110,7 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
 
 **프롬프트 (복사해서 사용)**
 ```
-detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 16:9 illustration panel, the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, the Professor thinking with a hand on his chin; a thought cloud above him containing a gold coin, a balance scale and a rising arrow drawn as simple symbols, a cozy accounting room beside the night lab, stacks of gold coins, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
+detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 16:9 illustration panel, the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, the Professor thinking with a hand on his chin; a thought cloud above him containing a gold coin, a balance scale and a rising arrow drawn as simple symbols, a cozy accounting room beside the night lab, a big wooden abacus, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
 ```
 
 ### 3-4. `sc_01_outro`
@@ -121,24 +121,24 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
 | 배경 | 그림 전체 |
 | 구도 | 승자({win})가 앞·크게, 패자도 같은 화면에서 인정하는 몸짓. 박사 뒤, 하루 옆 |
 | 표정·몸짓 | 아웃트로 말풍선 표정과 같게 |
-| 소품 | 연구실 옆 회계실. 금화 탑, 가죽 장부(줄무늬, 글자 없음), 둥근 금고 문, 작은 교환 창구 (글자 없음) |
+| 소품 | 연구실 옆 회계실. 큰 나무 주판, 가죽 장부(줄무늬, 글자 없음), 둥근 금고 문, 작은 교환 창구 (글자 없음) |
 | 빛·분위기 | 밝은 마무리 분위기 |
 | 피할 것 | 조롱하는 구도, 글자 |
-| 대체 글 (alt) | Money-Robo가 교환 창구 앞에서 두 팔을 들고, 초파리 연구원이 커피를 들고 고개를 끄덕이는 연구실 장면 |
+| 대체 글 (alt) | 주판봇이 교환 창구 앞에서 두 팔을 들고, 초파리 연구원이 커피를 들고 고개를 끄덕이는 연구실 장면 |
 | 대신 쓰는 그림 | 팩 캐릭터 + 캔버스 소품 합성본 |
 
 **프롬프트 (복사해서 사용)**
 ```
-detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks; the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands; MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow; Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat; a cozy accounting room beside the night lab, stacks of gold coins, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell; MONEY-ROBO in front, larger, raising both arms happily next to the open exchange window; the Fruit Fly on the left holding a coffee cup and nodding calmly; the Professor at the back with small purple flames in his hands; Haru at the side smiling, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
+detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks; the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands; JUPANBOT (AbaBot), a cute retro computer robot mascot with a boxy beige CRT-monitor body with rounded corners and thick dark brown outlines, a large dark green screen on the front where the face is drawn only with simple mint-green pixel blocks, a short thin antenna on a small square base topped with one tiny red-brown abacus bead, gray segmented arms with rounded gray mitten hands, two small dark gray tank treads instead of legs, carrying a small traditional wooden abacus with red-brown beads; Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat; a cozy accounting room beside the night lab, a big wooden abacus, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell; JUPANBOT (AbaBot) in front, larger, raising both arms happily next to the open exchange window; the Fruit Fly on the left holding a coffee cup and nodding calmly; the Professor at the back with small purple flames in his hands; Haru at the side smiling, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands, no white round robot head, no yellow or golden eyes, no floating robot, no gold coins
 ```
 
 ### 3-5. 직접 그림 (페이지에 이미 들어감)
-- `cut_01_versus`: 대결 머리. 팩 192px 초파리(`data-face="right"`)와 Money-Robo(`data-face="left"`)가 마주 보게 배치.
+- `cut_01_versus`: 대결 머리. 팩 192px 초파리(`data-face="right"`)와 주판봇(`data-face="left"`)가 마주 보게 배치.
 - `thumb_01`: 히어로 합성본(`.stage`)을 3:2로 잘라 600×400 WebP → `index.html` 목차 카드에 base64로 넣음.
 - `og_01`: 1200×630 히어로 화면 캡처 → `img/og_01.jpg`, 페이지 `<meta property="og:image">`.
 
 ## 4. 일관성 지침
-- 참고 이미지: 공식 저장소 `refs/original/keyart_rivals.png`(넷이 함께) + 장면에 나오는 캐릭터의 표정 원본 PNG (`images/doctor/E09_thinking.png`, `images/haru/E13_neutral.png`, `images/fruitfly/E08_guiding.png`, `images/money_robo/E16_proud.png`)
+- 참고 이미지: 공식 저장소 `refs/original/keyart_rivals.png`(넷이 함께) + 장면에 나오는 캐릭터의 표정 원본 PNG (`images/doctor/E09_thinking.png`, `images/haru/E13_neutral.png`, `images/fruitfly/E08_guiding.png`, `images/jupanbot/E16_proud.png`)
 - 같은 캐릭터는 같은 세션에서, 시드 고정 가능하면 고정: 박사 1101, 조수 2202, 초파리 3303, 로봇 4404
 - 표정만 바꿀 때 추가 문장: *same character, same size and position, only change the facial expression and pose to ...*
 - 투명 배경이 안 되면: *solid flat #00ff00 background*
@@ -171,21 +171,21 @@ python3 build_character_pack.py --ingest 받은폴더/ --plates bg_01=F,sc_01_he
 - **받을 파일 이름:** `bg_01.png`
 - **프롬프트:**
 ```
-detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, wide 8:3 background, left side simple and calm for title text, details on the right, a cozy accounting room beside the night lab, stacks of gold coins, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell, no characters, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
+detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, wide 8:3 background, left side simple and calm for title text, details on the right, a cozy accounting room beside the night lab, a big wooden abacus, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell, no characters, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
 ```
-- **네거티브 (넣을 칸이 있으면):** `blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark`
+- **네거티브 (넣을 칸이 있으면):** `blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, no white round robot head, no yellow or golden eyes, no floating robot, no gold coins`
 - **확인할 것:** 왼쪽 45%가 단순한지, 그림 안에 글자나 코인 기호가 없는지
 
 ### 의뢰 2/3 · `sc_01_hero`
-- **올릴 참고 이미지:** `refs/original/keyart_rivals.png`, `images/doctor/E09_thinking.png`, `images/haru/E13_neutral.png`, `images/fruitfly/E08_guiding.png`, `images/money_robo/E16_proud.png`
+- **올릴 참고 이미지:** `refs/original/keyart_rivals.png`, `images/doctor/E09_thinking.png`, `images/haru/E13_neutral.png`, `images/fruitfly/E08_guiding.png`, `images/jupanbot/E16_proud.png`
 - **크기·비율:** 1200×800 (3:2) 이상
 - **배경:** 그림 전체
 - **받을 파일 이름:** `sc_01_hero.png`
 - **프롬프트:**
 ```
-detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks; the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands; MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow; Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat; a cozy accounting room beside the night lab, stacks of gold coins, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell; the four characters gather around a small exchange window counter; a row of blank coin tokens of three different colors (gold, purple, teal) is lined up on the counter; the Professor at the back center with a hand on his chin; the Fruit Fly on the left looking right, pointing suspiciously at the coins; MONEY-ROBO on the right looking left beside a shiny gold coin; Haru at the side holding a blank striped ledger, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
+detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks; the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands; JUPANBOT (AbaBot), a cute retro computer robot mascot with a boxy beige CRT-monitor body with rounded corners and thick dark brown outlines, a large dark green screen on the front where the face is drawn only with simple mint-green pixel blocks, a short thin antenna on a small square base topped with one tiny red-brown abacus bead, gray segmented arms with rounded gray mitten hands, two small dark gray tank treads instead of legs, carrying a small traditional wooden abacus with red-brown beads; Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat; a cozy accounting room beside the night lab, a big wooden abacus, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell; the four characters gather around a small exchange window counter; a row of blank coin tokens of three different colors (gold, purple, teal) is lined up on the counter; the Professor at the back center with a hand on his chin; the Fruit Fly on the left looking right, pointing suspiciously at the coins; JUPANBOT (AbaBot) on the right looking left beside a big wooden abacus; Haru at the side holding a blank striped ledger, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands, no white round robot head, no yellow or golden eyes, no floating robot, no gold coins
 ```
-- **네거티브:** `blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark`
+- **네거티브:** `blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, no white round robot head, no yellow or golden eyes, no floating robot, no gold coins`
 - **확인할 것:** 박사 안경이 청록 사각인지(둥글면 다시), 하루 머리에 남색 줄과 번 2개가 있는지, 결과를 짐작할 표정이 없는지
 
 ### 의뢰 3/3 · `cut_01_think`
@@ -195,9 +195,9 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
 - **받을 파일 이름:** `cut_01_think.png`
 - **프롬프트:**
 ```
-detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 16:9 illustration panel, the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, the Professor thinking with a hand on his chin; a thought cloud above him containing a gold coin, a balance scale and a rising arrow drawn as simple symbols, a cozy accounting room beside the night lab, stacks of gold coins, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
+detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 16:9 illustration panel, the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, the Professor thinking with a hand on his chin; a thought cloud above him containing a gold coin, a balance scale and a rising arrow drawn as simple symbols, a cozy accounting room beside the night lab, a big wooden abacus, leather ledgers with blank striped pages, a round vault door, a small exchange window counter with a brass bell, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
 ```
-- **네거티브:** `blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark`
+- **네거티브:** `blurry, smooth vector art, 3D render, photorealistic, anti-aliased painting, inconsistent character, off-model, text, letters, watermark, no white round robot head, no yellow or golden eyes, no floating robot, no gold coins`
 - **확인할 것:** 생각 구름 안에 글자·숫자가 없는지
 
 ## 7. 매니페스트
@@ -224,7 +224,7 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
    "priority": "P1",
    "slot": "hero-bg",
    "fallback": "css",
-   "alt": "금화 탑과 둥근 금고 문이 있는 연구실 옆 회계실"
+   "alt": "큰 나무 주판과 둥근 금고 문이 있는 연구실 옆 회계실"
   },
   {
    "key": "sc_01_hero",
@@ -239,7 +239,7 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
    "priority": "P1",
    "slot": "hero-stage",
    "fallback": "composite",
-   "alt": "회계실 무대 위의 네 캐릭터와 금화 탑"
+   "alt": "회계실 무대 위의 네 캐릭터와 큰 나무 주판"
   },
   {
    "key": "cut_01_think",
@@ -268,7 +268,7 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
    "priority": "P2",
    "slot": "outro",
    "fallback": "composite",
-   "alt": "Money-Robo가 교환 창구 앞에서 두 팔을 들고, 초파리 연구원이 커피를 들고 고개를 끄덕이는 연구실 장면"
+   "alt": "주판봇이 교환 창구 앞에서 두 팔을 들고, 초파리 연구원이 커피를 들고 고개를 끄덕이는 연구실 장면"
   },
   {
    "key": "cut_01_versus",

@@ -6,7 +6,7 @@
 
 # 미디어 토큰 경제 연구실 — 논문 해설 시리즈
 
-안상선의 논문 「미디어 콘텐츠 기반의 블록체인 토큰의 경제적 성과 분석 — 가격 변동성 및 탈중앙화 성과를 중심으로」를 네 편의 인터랙티브 해설(긴급 미션 01~04)로 나눴다. 박사·하루(조수)·초파리 연구원·Money-Robo가 진행하고, 편마다 직접 돌려 보는 실습, 원문 수치, 대결, 확인 퀴즈, Colab 코드, AI 프롬프트, 용어 정리, 교육자 TIP, 지식 꾸러미가 들어 있다.
+안상선의 논문 「미디어 콘텐츠 기반의 블록체인 토큰의 경제적 성과 분석 — 가격 변동성 및 탈중앙화 성과를 중심으로」를 네 편의 인터랙티브 해설(긴급 미션 01~04)로 나눴다. 박사·하루(조수)·초파리 연구원·주판봇이 진행하고, 편마다 직접 돌려 보는 실습, 원문 수치, 대결, 확인 퀴즈, Colab 코드, AI 프롬프트, 용어 정리, 교육자 TIP, 지식 꾸러미가 들어 있다.
 
 - 논문 발표: [2019 한국언론학회 창립 60주년 기념 학술대회 · 기획세미나 「미디어 새로보기」](https://share.google/Y4Hla0YkWdcr2b3VT) (2019.5.18, 광주 국립아시아문화전당)
 - 관련 보도: [디센터 2019.5.27 「[이드콘 한국 2019] 고래 많을수록 암호화폐 가격 변동성은 올라간다」](https://www.decenter.kr/article/12307522)
@@ -120,7 +120,7 @@ README.md
 ## 용어 표기
 
 - **스팀 · 스팀파워 · 스팀달러:** 원문 표기를 따랐다. 원문 그림 3의 “SMD”는 본문의 “SBD(스팀달러)”와 같은 것으로 읽었다.
-- **비유 앵커:** 01·04편은 Money-Robo의 **장부**, 02편은 **일기 예보**, 03편은 **학교 시험**으로 끝까지 같은 비유를 쓴다. 초파리 생물학은 이 주제와 대응이 없어 비유로 쓰지 않았다.
+- **비유 앵커:** 01·04편은 주판봇의 **장부**, 02편은 **일기 예보**, 03편은 **학교 시험**으로 끝까지 같은 비유를 쓴다. 초파리 생물학은 이 주제와 대응이 없어 비유로 쓰지 않았다.
 - **K1~K4:** 원문에 정의가 없어 저자 설명(상위 계층 누적 보유 비중 + 지니계수류)을 따랐다.
 
 ## 라이선스
@@ -137,7 +137,7 @@ README.md
 
 # Media Token Economics Lab — Paper Explainer Series
 
-Ahn Sangsun's paper “Economic Performance of Blockchain Tokens Based on Media Content — Focusing on Price Volatility and Decentralization” is split into four interactive explainers (Emergency mission 01~04). The Doctor, Haru (Assistant), the Fruit Fly Researcher and Money-Robo guide you. Each part has hands-on exercises you run yourself, original figures, a showdown, check quizzes, Colab code, AI prompts, a glossary, tips for educators and a knowledge package.
+Ahn Sangsun's paper “Economic Performance of Blockchain Tokens Based on Media Content — Focusing on Price Volatility and Decentralization” is split into four interactive explainers (Emergency mission 01~04). The Doctor, Haru (Assistant), the Fruit Fly Researcher and AbaBot guide you. Each part has hands-on exercises you run yourself, original figures, a showdown, check quizzes, Colab code, AI prompts, a glossary, tips for educators and a knowledge package.
 
 - Paper presented at: [2019 Korean Society for Journalism and Communication Studies 60th Anniversary Conference · Special Seminar “Rethinking Media”](https://share.google/Y4Hla0YkWdcr2b3VT) (2019.5.18, Asia Culture Center (Gwangju))
 - News coverage: [Decenter 2019.5.27 “[EthCon Korea 2019] The more whales, the higher the price volatility of cryptocurrencies”](https://www.decenter.kr/article/12307522)
@@ -251,7 +251,7 @@ Each HTML file holds its images, data and scripts in one file. No build is neede
 ## Term usage
 
 - **Steem · Steem Power · Steem Dollars:** we follow the terms of the original paper. The “SMD” in Figure 3 of the paper is read as the same thing as “SBD (Steem Dollars)” in the main text.
-- **Analogy anchors:** Parts 01 and 04 use Money-Robo's **ledger**, Part 02 a **weather forecast**, and Part 03 a **school exam**, and each keeps the same analogy to the end. Fruit fly biology has no match with this topic, so it is not used as an analogy.
+- **Analogy anchors:** Parts 01 and 04 use AbaBot's **ledger**, Part 02 a **weather forecast**, and Part 03 a **school exam**, and each keeps the same analogy to the end. Fruit fly biology has no match with this topic, so it is not used as an analogy.
 - **K1~K4:** the paper gives no definition, so we follow the author's explanation (cumulative holding share of the top tiers + Gini-type measures).
 
 ## License
@@ -268,7 +268,7 @@ This series is not investment advice and does not recommend buying or selling an
 
 # 媒体代币经济研究室 —— 论文解读系列
 
-Ahn Sangsun 的论文《基于媒体内容的区块链代币经济绩效分析——以价格波动性与去中心化绩效为中心》被拆分为四篇互动解读（紧急任务 01~04）。由博士、Haru（助手）、果蝇研究员和 Money-Robo 主持，每篇都包含可亲手操作的实践、原文数值、对决、确认测验、Colab 代码、AI 提示词、术语表、教师指南和知识包。
+Ahn Sangsun 的论文《基于媒体内容的区块链代币经济绩效分析——以价格波动性与去中心化绩效为中心》被拆分为四篇互动解读（紧急任务 01~04）。由博士、Haru（助手）、果蝇研究员和算盘宝主持，每篇都包含可亲手操作的实践、原文数值、对决、确认测验、Colab 代码、AI 提示词、术语表、教师指南和知识包。
 
 - 论文发表：[2019 韩国言论学会成立 60 周年纪念学术大会 · 专题研讨会《重新审视媒体》](https://share.google/Y4Hla0YkWdcr2b3VT)（2019.5.18，国立亚洲文化殿堂（光州））
 - 相关报道：[Decenter 2019.5.27《[EthCon Korea 2019] 鲸鱼越多，加密货币价格波动性越高》](https://www.decenter.kr/article/12307522)
@@ -382,7 +382,7 @@ README.md
 ## 术语写法
 
 - **斯蒂姆(STEEM) · 斯蒂姆能量(SP) · 斯蒂姆美元(SBD)：** 沿用原文写法。原文图 3 中的“SMD”被理解为与正文中的“SBD（斯蒂姆美元）”相同。
-- **比喻锚点：** 第 01、04 篇使用 Money-Robo 的**账本**，第 02 篇使用**天气预报**，第 03 篇使用**学校考试**，始终沿用同一比喻。果蝇生物学与本主题没有对应关系，因此没有用作比喻。
+- **比喻锚点：** 第 01、04 篇使用算盘宝的**账本**，第 02 篇使用**天气预报**，第 03 篇使用**学校考试**，始终沿用同一比喻。果蝇生物学与本主题没有对应关系，因此没有用作比喻。
 - **K1~K4：** 原文没有定义，因此采用作者的说明（上层累计持有比例 + 基尼系数类指标）。
 
 ## 许可协议
@@ -399,7 +399,7 @@ README.md
 
 # メディアトークン経済研究室 ― 論文解説シリーズ
 
-アン・サンソンの論文「メディアコンテンツ基盤のブロックチェーントークンの経済的成果分析 ― 価格変動性および脱中央化の成果を中心に」を、4本のインタラクティブ解説（緊急ミッション01~04）に分けた。博士・ハル（助手）・ショウジョウバエ研究員・Money-Roboが進行し、各編には自分で動かす実習、原文の数値、対決、確認クイズ、Colabコード、AIプロンプト、用語集、教育者向けTIP、知識パッケージが入っている。
+アン・サンソンの論文「メディアコンテンツ基盤のブロックチェーントークンの経済的成果分析 ― 価格変動性および脱中央化の成果を中心に」を、4本のインタラクティブ解説（緊急ミッション01~04）に分けた。博士・ハル（助手）・ショウジョウバエ研究員・アバボットが進行し、各編には自分で動かす実習、原文の数値、対決、確認クイズ、Colabコード、AIプロンプト、用語集、教育者向けTIP、知識パッケージが入っている。
 
 - 論文発表：[2019 韓国言論学会創立60周年記念学術大会・企画セミナー「メディアを見直す」](https://share.google/Y4Hla0YkWdcr2b3VT)（2019.5.18、国立アジア文化殿堂（光州））
 - 関連報道：[Decenter 2019.5.27「[EthCon Korea 2019] クジラが多いほど暗号資産の価格変動性は上がる」](https://www.decenter.kr/article/12307522)
@@ -513,7 +513,7 @@ README.md
 ## 用語の表記
 
 - **スチーム · スチームパワー · スチームドル：** 原文の表記に従った。原文の図3の「SMD」は、本文の「SBD（スチームドル）」と同じものとして読んだ。
-- **たとえのアンカー：** 01・04編はMoney-Roboの**帳簿**、02編は**天気予報**、03編は**学校の試験**と、最後まで同じたとえを使う。ショウジョウバエの生物学はこのテーマと対応しないため、たとえには使わなかった。
+- **たとえのアンカー：** 01・04編はアバボットの**帳簿**、02編は**天気予報**、03編は**学校の試験**と、最後まで同じたとえを使う。ショウジョウバエの生物学はこのテーマと対応しないため、たとえには使わなかった。
 - **K1~K4：** 原文に定義がないため、著者の説明（上位層の累積保有比率＋ジニ係数類）に従った。
 
 ## ライセンス
@@ -530,7 +530,7 @@ README.md
 
 # Media token iqtisodiyoti laboratoriyasi — maqola sharhlari turkumi
 
-Ahn Sangsunning “Media kontentga asoslangan blokcheyn tokenlarining iqtisodiy samaradorligi tahlili — narx oʻzgaruvchanligi va markazsizlashtirish natijalari asosida” nomli maqolasi toʻrtta interaktiv sharhga (Shoshilinch missiya 01~04) boʻlingan. Ularni Doktor, Haru (yordamchi), Drozofila tadqiqotchisi va Money-Robo olib boradi. Har bir qismda siz oʻzingiz ishlatib koʻradigan amaliyot, asl matn raqamlari, bellashuv, tekshiruv viktorinasi, Colab kodi, AI promptlari, atamalar lugʻati, oʻqituvchilar uchun maslahatlar va bilimlar toʻplami bor.
+Ahn Sangsunning “Media kontentga asoslangan blokcheyn tokenlarining iqtisodiy samaradorligi tahlili — narx oʻzgaruvchanligi va markazsizlashtirish natijalari asosida” nomli maqolasi toʻrtta interaktiv sharhga (Shoshilinch missiya 01~04) boʻlingan. Ularni Doktor, Haru (yordamchi), Drozofila tadqiqotchisi va AbaBot olib boradi. Har bir qismda siz oʻzingiz ishlatib koʻradigan amaliyot, asl matn raqamlari, bellashuv, tekshiruv viktorinasi, Colab kodi, AI promptlari, atamalar lugʻati, oʻqituvchilar uchun maslahatlar va bilimlar toʻplami bor.
 
 - Maqola taqdimoti: [Koreya jurnalistika va kommunikatsiya tadqiqotlari jamiyati tashkil topganining 60 yilligiga bagʻishlangan 2019-yilgi ilmiy konferensiya · maxsus seminar “Mediaga yangicha nazar”](https://share.google/Y4Hla0YkWdcr2b3VT) (2019.5.18, Osiyo madaniyati markazi (Kvanju))
 - Tegishli xabar: [Decenter 2019.5.27 “[EthCon Korea 2019] Kitlar qancha koʻp boʻlsa, kriptovalyuta narxining oʻzgaruvchanligi shuncha oshadi”](https://www.decenter.kr/article/12307522)
@@ -644,7 +644,7 @@ Har bir HTML fayl rasm, ma’lumot va skriptlarni bitta faylda saqlaydi. Yigʻis
 ## Atamalarning yozilishi
 
 - **Steem · Steem Power · Steem Dollars:** asl matndagi yozilishga amal qilindi. Asl matndagi 3-rasmdagi “SMD” asosiy matndagi “SBD (Steem Dollars)” bilan bir narsa deb oʻqildi.
-- **Oʻxshatish langarlari:** 01 · 04-qismlarda Money-Roboning **daftari**, 02-qismda **ob-havo prognozi**, 03-qismda **maktab imtihoni** oxirigacha bir xil oʻxshatish sifatida ishlatiladi. Drozofila biologiyasi bu mavzuga mos kelmagani uchun oʻxshatish sifatida ishlatilmadi.
+- **Oʻxshatish langarlari:** 01 · 04-qismlarda AbaBotning **daftari**, 02-qismda **ob-havo prognozi**, 03-qismda **maktab imtihoni** oxirigacha bir xil oʻxshatish sifatida ishlatiladi. Drozofila biologiyasi bu mavzuga mos kelmagani uchun oʻxshatish sifatida ishlatilmadi.
 - **K1~K4:** asl matnda ta’rif yoʻq, shuning uchun muallifning izohiga (yuqori qatlamlarning yigʻma egalik ulushi + Jini koeffitsiyenti turidagi koʻrsatkichlar) amal qilindi.
 
 ## Litsenziya
@@ -661,7 +661,7 @@ Bu turkum investitsiya tavsiyasi emas va biror kriptovalyutani sotib olish yoki 
 
 # Лаборатория экономики медиатокенов — серия разборов статьи
 
-Статья Ан Сансона «Анализ экономической эффективности блокчейн-токенов на основе медиаконтента — с акцентом на волатильность цен и децентрализацию» разделена на четыре интерактивных разбора (Срочная миссия 01~04). Их ведут Доктор, Хару (ассистент), Исследователь-дрозофила и Money-Robo. В каждой части есть практика, которую вы запускаете сами, исходные данные статьи, поединок, проверочные викторины, код для Colab, AI-промпты, глоссарий, советы преподавателям и пакет знаний.
+Статья Ан Сансона «Анализ экономической эффективности блокчейн-токенов на основе медиаконтента — с акцентом на волатильность цен и децентрализацию» разделена на четыре интерактивных разбора (Срочная миссия 01~04). Их ведут Доктор, Хару (ассистент), Исследователь-дрозофила и АбаБот. В каждой части есть практика, которую вы запускаете сами, исходные данные статьи, поединок, проверочные викторины, код для Colab, AI-промпты, глоссарий, советы преподавателям и пакет знаний.
 
 - Доклад: [Научная конференция 2019 года к 60-летию Корейского общества журналистики и коммуникационных исследований · тематический семинар «Новый взгляд на медиа»](https://share.google/Y4Hla0YkWdcr2b3VT) (2019.5.18, Азиатский культурный центр (Кванджу))
 - Публикация в СМИ: [Decenter 2019.5.27 «[EthCon Korea 2019] Чем больше китов, тем выше волатильность цен криптовалют»](https://www.decenter.kr/article/12307522)
@@ -775,7 +775,7 @@ README.md
 ## Обозначения терминов
 
 - **Steem · Steem Power · Steem Dollars:** мы следуем написанию статьи. «SMD» на рисунке 3 статьи понимается как то же самое, что «SBD (Steem Dollars)» в основном тексте.
-- **Опорные аналогии:** в частях 01 и 04 до конца используется **бухгалтерская книга** Money-Robo, в части 02 — **прогноз погоды**, в части 03 — **школьный экзамен**. Биология дрозофилы не соответствует этой теме, поэтому как аналогия не используется.
+- **Опорные аналогии:** в частях 01 и 04 до конца используется **бухгалтерская книга** АбаБота, в части 02 — **прогноз погоды**, в части 03 — **школьный экзамен**. Биология дрозофилы не соответствует этой теме, поэтому как аналогия не используется.
 - **K1~K4:** в статье нет определения, поэтому мы следуем пояснению автора (накопленная доля владения верхних слоёв + показатели типа коэффициента Джини).
 
 ## Лицензия
@@ -792,7 +792,7 @@ README.md
 
 # Phòng thí nghiệm kinh tế token truyền thông — Loạt bài giải thích bài báo
 
-Bài báo “Phân tích hiệu quả kinh tế của token blockchain dựa trên nội dung truyền thông — tập trung vào biến động giá và mức độ phi tập trung” của Ahn Sangsun được chia thành bốn bài giải thích tương tác (Nhiệm vụ khẩn cấp 01~04). Tiến sĩ, Haru (trợ lý), Nhà nghiên cứu Ruồi giấm và Money-Robo sẽ dẫn dắt bạn. Mỗi bài có phần thực hành để bạn tự chạy thử, số liệu gốc, màn đối đầu, câu đố kiểm tra, mã Colab, prompt AI, bảng thuật ngữ, mẹo cho người dạy và gói tri thức.
+Bài báo “Phân tích hiệu quả kinh tế của token blockchain dựa trên nội dung truyền thông — tập trung vào biến động giá và mức độ phi tập trung” của Ahn Sangsun được chia thành bốn bài giải thích tương tác (Nhiệm vụ khẩn cấp 01~04). Tiến sĩ, Haru (trợ lý), Nhà nghiên cứu Ruồi giấm và AbaBot sẽ dẫn dắt bạn. Mỗi bài có phần thực hành để bạn tự chạy thử, số liệu gốc, màn đối đầu, câu đố kiểm tra, mã Colab, prompt AI, bảng thuật ngữ, mẹo cho người dạy và gói tri thức.
 
 - Công bố bài báo: [Hội thảo khoa học năm 2019 kỷ niệm 60 năm thành lập Hội Nghiên cứu Báo chí và Truyền thông Hàn Quốc · hội thảo chuyên đề “Nhìn lại truyền thông”](https://share.google/Y4Hla0YkWdcr2b3VT) (2019.5.18, Trung tâm Văn hóa châu Á (Gwangju))
 - Tin liên quan: [Decenter 2019.5.27 “[EthCon Korea 2019] Càng nhiều cá voi, biến động giá tiền mã hóa càng tăng”](https://www.decenter.kr/article/12307522)
@@ -906,7 +906,7 @@ Mỗi tệp HTML chứa hình, dữ liệu và script trong cùng một tệp. K
 ## Cách viết thuật ngữ
 
 - **Steem · Steem Power · Steem Dollars:** theo cách viết của bản gốc. “SMD” trong hình 3 của bản gốc được hiểu là cùng một thứ với “SBD (Steem Dollars)” trong phần nội dung.
-- **Phép so sánh xuyên suốt:** bài 01 · 04 dùng **sổ sách** của Money-Robo, bài 02 dùng **dự báo thời tiết**, bài 03 dùng **bài thi ở trường**, và giữ cùng một phép so sánh đến cuối. Sinh học ruồi giấm không tương ứng với chủ đề này nên không được dùng làm phép so sánh.
+- **Phép so sánh xuyên suốt:** bài 01 · 04 dùng **sổ sách** của AbaBot, bài 02 dùng **dự báo thời tiết**, bài 03 dùng **bài thi ở trường**, và giữ cùng một phép so sánh đến cuối. Sinh học ruồi giấm không tương ứng với chủ đề này nên không được dùng làm phép so sánh.
 - **K1~K4:** bản gốc không có định nghĩa, nên theo giải thích của tác giả (tỷ lệ nắm giữ cộng dồn của các nhóm trên cùng + các chỉ số kiểu hệ số Gini).
 
 ## Giấy phép
